@@ -1,9 +1,9 @@
 <script setup>
 import heads from '~/components/header.vue';
-import yotasmain from '~/storage/imgs/yotas_main.png';
+import yotasmain from '~/storage/imgs/yotas_main.webp';
 import links from '~/components/links.vue';
-import firma from '~/storage/imgs/firma.png'
-import logos from '~/storage/imgs/logos_hab.png'
+import firma from '~/storage/imgs/firma.webp'
+import logos from '~/storage/imgs/logos_hab.webp'
 import digitales from '~/storage/imgs/digitale.png'
 import foot from '~/components/foot.vue';
 import workpc from '~/storage/imgs/workpc.png'
@@ -61,7 +61,7 @@ const ejm = ""
     <section-service
     :name="'Visual Branding'"
     :description="'Crear marcas con significado y propósito, las cuales tengan un valor agregado, recordación y sobre todo sean funcionales'"
-    :img1="'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQloFBXdJpz-BwRdlA2tRGZabgoHaMMy3DAyRilDT0FRgQ7YymDiws_mQl0bv4LBMWjSnmMZErUS_Efaqug6UobclXP3pvUgkiliBV7PH9v&s=10'"
+    :img1="'https://cdn.pixabay.com/photo/2015/03/25/01/47/puppies-688425_1280.jpg'"
     ></section-service>
 
 

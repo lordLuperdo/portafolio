@@ -1,5 +1,5 @@
 <script setup>
-import flecha from '~/storage/imgs/flecha.png'
+import flecha from '~/storage/imgs/flecha.webp'
 </script>
 
 <template>

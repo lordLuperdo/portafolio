@@ -8,7 +8,13 @@ const props = defineProps(['img1','img2','img3','img4','img5','img6','name','des
      <h3 class="font-titulos sm:text-6xl">{{name}}</h3>
      <p class="font-texto xl:text-xl sm:text-lg">{{description}}</p>
       <div class="flex gap-4 justify-center mt-3 flex-wrap  ">
-        <div class=" bg-cover md:h-32 w-40 rounded-md h-28" :style="{backgroundImage: `url(${img1})`}"></div>
+        
+        <NuxtImg 
+    :src="img1" 
+    format="webp" 
+    alt="Obra de arte"
+    class="md:h-32 w-40 rounded-md h-28 object-cover"
+    />
         <div class="bg-gray-300 md:h-32 w-40 rounded-md h-28"></div>
         <div class="bg-gray-300 md:h-32 w-40 rounded-md h-28"></div>
         <div class="bg-gray-300 md:h-32 w-40 rounded-md h-28"></div>

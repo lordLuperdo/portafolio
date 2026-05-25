@@ -2,11 +2,17 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@nuxtjs/google-fonts'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@pinia/nuxt',
+    '@nuxtjs/google-fonts',
+    '@nuxt/image'
+  ],
 
   googleFonts:{
     families:{ 
-      Karantina:[400]
+      Karantina:[400],
+      Roboto:[400]
     }
   }
 

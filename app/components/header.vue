@@ -1,6 +1,6 @@
 <script setup>
-import logo from "~/storage/imgs/logo.png"
-import flecha from "~/storage/imgs/flecha.png"
+import logo from "~/storage/imgs/logo.webp"
+import flecha from "~/storage/imgs/flecha.webp"
 </script>
 <template>
 <header class=" top-0 right-0 w-full">

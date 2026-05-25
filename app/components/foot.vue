@@ -1,8 +1,8 @@
 <script setup>
-import logo from '~/storage/imgs/logo.png'
-import contacto from '~/storage/imgs/contacto.png'
+import logo from '~/storage/imgs/logo.webp'
+import contacto from '~/storage/imgs/contacto.webp'
 import links from './links.vue';
-import yotas from '~/storage/imgs/yotas_main.png'
+import yotas from '~/storage/imgs/yotas_main.webp'
 
 
 </script>
