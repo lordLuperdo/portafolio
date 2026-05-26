@@ -10,6 +10,7 @@ const props = defineProps(['name'])
 
     <main class="bg-black h-[60vh]" >
      <heads></heads>
+     
 
      <div class="flex flex-col items-center justify-center">
         <div class="">

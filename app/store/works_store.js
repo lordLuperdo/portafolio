@@ -6,67 +6,47 @@ export const useWorkStore = defineStore("Work", ()=>{
         branding:{
             k9:{
             name:"K9",    
-            
-            racional:"Esta marca se creó con la idea de creae ",
-            imgmain:"",
-            imgs:[]
-          },
-          zaphi:{
-            name:"",
-            racional:"",
-            imgmain:"",
-            imgs:[]
-          },
-          Cattaleya:{
-            name:"",
-            racional:"",
-            imgmain:"",
-            imgs:[]
+            inspiracion:"El ícono está inspirado en un Bichón Maltés, una de las razas de perros de pelaje largo más reconocidas en el mundo. Su cabello sedoso y elegante representa el cuidado, la delicadeza y la atención al detalle que la marca busca reflejar",
+            racional:"Esta marca fue creada con el propósito de transmitir una sensación amigable y cercana hacia el consumidor, utilizando una iconografía de formas redondeadas y suaves que refuerzan su carácter accesible y cálido.",
+            imgmain:"k9",
+            points:[],
+            imgs:["k91","k92","k93"]
           },
           batallaencali:{
-            name:"",
-            racional:"",
-            imgmain:"",
-            imgs:[]
+            name:"Batalla en Cali",
+            inspiracion:"El ícono está inspirado en un Bichón Maltés, una de las razas de perros de pelaje largo más reconocidas en el mundo. Su cabello sedoso y elegante representa el cuidado, la delicadeza y la atención al detalle que la marca busca reflejar",
+            racional:"Esta marca fue creada con el propósito de transmitir una sensación amigable y cercana hacia el consumidor, utilizando una iconografía de formas redondeadas y suaves que refuerzan su carácter accesible y cálido.",
+            imgmain:"Batallaencali",
+            points:[],
+            imgs:["cali1","cali2","cali3"]
           },
-          SanFelipe:{
-            name:"",
-            racional:"",
-            imgmain:"",
-            imgs:[]
+          zaphi:{
+            name:"Los cubos de Zaphi",
+                        inspiracion:"El ícono está inspirado en un Bichón Maltés, una de las razas de perros de pelaje largo más reconocidas en el mundo. Su cabello sedoso y elegante representa el cuidado, la delicadeza y la atención al detalle que la marca busca reflejar",
+            racional:"Esta marca fue creada con el propósito de transmitir una sensación amigable y cercana hacia el consumidor, utilizando una iconografía de formas redondeadas y suaves que refuerzan su carácter accesible y cálido.",
+
+            imgmain:"zaphi",
+            points:[],
+            imgs:["z1","z2","z3"]
           },
-          williammartinez:{
-            name:"",
-            racional:"",
-            imgmain:"",
-            imgs:[]
+          y37:{
+            name:"Y37",
+            inspiracion:"Para la creación de este identificador visual se tomó inspiración en dos elementos principales: la textura del cabello femenino y la retícula de la proporción áurea, símbolo de perfección y equilibrio.",
+            racional:"El resultado busca transmitir delicadeza y estética, integrando de forma sutil las letras del nombre Y37 dentro del símbolo, logrando una composición armónica y elegante que refleja belleza, precisión y movimiento natural",
+            imgmain:"y37",
+            points:[],
+            imgs:["y1","y2","y3"]
           },
-          aguailuz:{
-            name:"",
-            racional:"",
-            imgmain:"",
-            imgs:[]
-          },
-          sanfelipe:{
-            name:"",
-            racional:"",
-            imgmain:"",
-            imgs:[]
-          },
-          coltic:{
-            name:"",
-            racional:"",
-            imgmain:"",
-            imgs:[]
-          },
+          
+          
 
 
           
         },
         Digital:[
-         "monster1","monster2","monster3","monster4","monster5","desideri1","desideri1",
+         "monster1","monster2","monster3","monster4","monster5","desideri1",
          "desideri2","desideri3","desideri4","oldparr1","oldparr2","brindis","alceblanco",
-         "baltika","abogando1","abogando2","abogando3","k91","perrito1","perrito2",
+         "control","control2","plantilla","jack","baltika","abogando1","abogando2","abogando3","k91","perrito1","perrito2",
          "render%1","zaphi"
         ],
         Ux:{
@@ -83,6 +63,8 @@ export const useWorkStore = defineStore("Work", ()=>{
         {img:""}
         ]
     }
+
+    const extras_b = ["cattaleya","sanfelipe"]
 
     
 
@@ -112,5 +94,5 @@ export const useWorkStore = defineStore("Work", ()=>{
     ]
   
 
-    return{trabajos,s_service}
+    return{trabajos,s_service,extras_b}
 })
