@@ -9,6 +9,10 @@ import foot from '~/components/foot.vue';
 import workpc from '~/storage/imgs/workpc.png'
 import section_service from '~/components/section_service.vue';
 
+import { useWorkStore } from '~/store/works_store';
+
+const {s_service} = useWorkStore()
+
 const ejm = ""
 </script>
 <template>
@@ -26,7 +30,7 @@ const ejm = ""
         </div>
         <div class="w-[30%] flex items-start flex-col justify-start ">
             <div class="">
-                <h3 class="font-titulos leading-[80%] text-[10rem] xl:text-[13rem] text-white">
+                <h3 class="font-titulos leading-[80%] text-[10rem] xl:mt-6 xl:text-[13rem] text-white">
                     ANDRÉS <br> CONEO
                 </h3> 
             </div>
@@ -58,28 +62,23 @@ const ejm = ""
 
 <!-- -->
 
-    <section-service
-    :name="'Visual Branding'"
-    :description="'Crear marcas con significado y propósito, las cuales tengan un valor agregado, recordación y sobre todo sean funcionales'"
-    :img1="'https://cdn.pixabay.com/photo/2015/03/25/01/47/puppies-688425_1280.jpg'"
+   <section class="flex flex-col gap-10">
+
+
+ <section-service
+    v-for="service in s_service" :key="service"
+    :name="service.name"
+    :description="service.description"
+    :arr="service.name_img"
+    :link="service.rute"
     ></section-service>
 
 
-    <section class="mt-16 text-center flex flex-col justify-center sm:px-20 items-center"> 
-     <h3 class="font-titulos sm:text-6xl">Web Desing & UX</h3>
-     <p class="font-texto xl:text-xl sm:text-lg">Crear interfases que no solo sean esteticas, sino también funcionales </p>
-      <div class="flex gap-4 justify-center mt-3 flex-wrap  ">
-        <div class="bg-gray-300 md:h-32 w-40 rounded-md h-28"></div>
-        <div class="bg-gray-300 md:h-32 w-40 rounded-md h-28"></div>
-        <div class="bg-gray-300 md:h-32 w-40 rounded-md h-28"></div>
-        <div class="bg-gray-300 md:h-32 w-40 rounded-md h-28"></div>
-        <div class="bg-gray-300 md:h-32 w-40 rounded-md h-28"></div>
-        <div class="bg-gray-300 md:h-32 w-40 rounded-md xl:hidden h-28"></div>
-    </div>
-    <a href="" class="p-2 px-10 bg-yellow-300 font-texto rounded-full mt-4 w-[30%]">
-        Conoce más
-    </a>
-    </section>
+   </section>
+
+   
+
+ 
 
     <foot></foot>
 

@@ -10,7 +10,7 @@ import flecha from "~/storage/imgs/flecha.webp"
         </NuxtLink>
         
         <div class="">
-            <ul class="flex gap-6 text-lg font-texto">
+            <ul class="flex gap-9 text-lg font-texto">
                 <li class="text-white">
                      <NuxtLink to="/">Yo</NuxtLink>
                     </li>
