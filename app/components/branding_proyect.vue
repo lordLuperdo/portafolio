@@ -15,7 +15,7 @@ const props = defineProps(["main","arr","name","racional","inspiracion"])
             </div>
         </div>
       
-        <div class="">
+        <div class="w-[90%]">
             <div class="sticky top-0">
             <h2 class="text-9xl font-titulos ">{{ name }}</h2> 
 

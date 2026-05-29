@@ -1,6 +1,7 @@
 <script setup>
 import  main_service from '~/components/main_service.vue';
 import { useWorkStore } from '~/store/works_store';
+import foot from '~/components/foot.vue';
 
 const workStore = useWorkStore()
 
@@ -19,6 +20,6 @@ const workStore = useWorkStore()
         >
     </section>
 
-     
+     <foot></foot>
 
 </template>
