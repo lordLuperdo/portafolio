@@ -10,7 +10,7 @@ const workstore = useWorkStore()
 
 <template>
     
-    <main_service
+    <main_service 
     name="BRANDING"
     ></main_service>
 

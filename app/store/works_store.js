@@ -114,23 +114,23 @@ export const useWorkStore = defineStore("Work", ()=>{
     const s_service = [
       
       {name:"Visual Branding",
-       description:"Crear marcas con significado y propósito, las cuales tengan un valor agregado, recordación y sobre todo sean funcionales",
+       description:"Diseño marcas con propósito y significado, construidas para diferenciarse, generar recordación y aportar valor real a través de la funcionalidad.",
        rute:"/branding",
        name_img:["branding1.webp","branding2.webp","branding3.webp","branding4.webp","branding5.webp"] 
       },
 
       {name:"Web Desing & UX",
-       description:"Crear interfases que no solo sean esteticas, sino tambizén funcionales",
+       description:"Creo interfaces visualmente atractivas sin sacrificar funcionalidad, priorizando siempre la experiencia del usuario.",
        rute:"/ux",
        name_img:["ux.webp","ux2.webp","ux3.webp","ux4.webp","ux5.webp"] 
       },
       {name:"Publicidad Digital",
-       description:"Crear piezas digitales de maner eficiente siempre buscando, la funcionalidad, estetica y dejar claro siempre el mensaje a promocionar",
+       description:"Diseño piezas digitales funcionales y estéticas, enfocadas en comunicar el mensaje de forma clara, efectiva y memorable.",
        rute:"/digital",
        name_img:["digi1.webp","digi2.webp","digi3.webp","digi4.webp","digi5.webp"] 
       },
       {name:"Varios",
-       description:"Ajustarme a las necesidades de cada cliente teniendo en cuenta que cada marca es un universo",
+       description:"Me ajusto a las necesidades de cada cliente, comprendiendo que cada marca tiene su propia identidad, contexto y universo.",
        rute:"/varios",
        name_img:["3d1.webp","3d2.webp","3d3.webp","3d4.webp","3d5.webp"] 
       },

@@ -10,10 +10,15 @@ const workstore = useWorkStore()
 
 
 <template>
-    
-    <main_service
+
+    <main_service class="xl:hidden block"
+    name="UX / WEB"
+    ></main_service>
+
+    <main_service class="hidden xl:block"
     name="UX / DESARROLLO WEB"
     ></main_service>
+    
      
     <ux_proyect
     v-for="p in workstore.trabajos.Ux"

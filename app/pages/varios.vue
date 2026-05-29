@@ -9,11 +9,15 @@ const workStore = useWorkStore()
 
 <template>
     
-    <main_service
+    <main_service class="hidden sm:block"
     name="3D & VARIOS"
     ></main_service>
 
-    <section class=" p-16 xl:columns-6 gap-3 ">
+    <main_service class="sm:hidden block"
+    name="VARIOS"
+    ></main_service>
+
+    <section class=" p-5 sm:p-16 xl:columns-6 sm:columns-4 columns-2 gap-3 ">
         <img :src="`https://firebasestorage.googleapis.com/v0/b/portafolio-2f645.firebasestorage.app/o/3d%26others%2F${piece}.webp?alt=media&token=true`" 
         alt="" class="rounded-xl mb-3 shadow-md" 
         v-for="piece in workStore.trabajos.ppd" :key="piece"
