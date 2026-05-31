@@ -1,5 +1,8 @@
 <script setup>
+
+
 const props = defineProps(["main","arr","name","racional","inspiracion"])
+
 
 </script>
 <template>
@@ -15,7 +18,7 @@ const props = defineProps(["main","arr","name","racional","inspiracion"])
             </div>
         </div>
       
-        <div class="w-[90%]">
+        <div class="w-[90%] service-item">
             <div class="sticky top-0">
             <h2 class="text-9xl font-titulos ">{{ name }}</h2> 
 

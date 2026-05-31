@@ -9,12 +9,16 @@ import foot from '~/components/foot.vue';
 import workpc from '~/storage/imgs/workpc.png'
 import section_service from '~/components/section_service.vue';
 import inicioz from '~/components/inicioz.vue';
-
 import { useWorkStore } from '~/store/works_store';
+
+import gsap from 'gsap';
+import {ScrollTrigger} from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger)
 
 const {s_service} = useWorkStore()
 
-const ejm = ""
+
 
 const scrollToS = () => {
   const a = document.getElementById("services")
@@ -25,6 +29,24 @@ const scrollToS = () => {
     })
   }
 }
+
+onMounted(() => {
+  gsap.utils.toArray('.service-item').forEach((item) => {
+    gsap.from(item, {
+      opacity: 0,
+      y: 80,
+      scale: 0.95,
+      duration: 0.4,
+      ease: 'power3.out',
+
+      scrollTrigger: {
+        trigger: item,
+        start: 'top 85%',
+        scrub: true
+      }
+    })
+  })
+})
 
 
 </script>
@@ -104,13 +126,18 @@ const scrollToS = () => {
    <section class="flex flex-col gap-10">
 
 
- <section-service
-    v-for="service in s_service" :key="service"
+ <div
+  v-for="service in s_service"
+  :key="service.name"
+  class="service-item"
+>
+  <section-service
     :name="service.name"
     :description="service.description"
     :arr="service.name_img"
     :link="service.rute"
-    ></section-service>
+  />
+</div>
 
 
    </section>
