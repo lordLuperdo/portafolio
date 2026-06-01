@@ -106,8 +106,8 @@ onMounted(() => {
         <img :src="logos" alt="Habilidades" class="lg:max-w-[40%] sm:w-[80%] md-w-[60%]"></div>
 
 
-    <div class="flex flex-col relative justify-between">
-        <div class="  flex flex-col justify-center items-center sm:px-0 px-9 top-0 sticky sm:h-[80vh] h-[60vh]">
+    <div class="flex flex-col relative justify-between service-item">
+        <div class="  flex flex-col justify-center items-center sm:px-0 px-9 top-0 sticky sm:h-[80vh] h-[50vh]">
             <h2 class="font-titulos text-gris w-full lg:text-8xl xl:text-9xl text-7xl text-center leading-[80%]">Más de 6 años creando proyectos</h2>
             <img :src="digitales" alt="ay" class="sm:w-96 ">
         </div>

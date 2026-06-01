@@ -102,7 +102,8 @@ export const useWorkStore = defineStore("Work", ()=>{
         ppd:[
         "glen1","glen2","glen3","control1","autoclave1",
         "autoclave2","autoclave3","autoclave4","autoclave5",
-        "autoclave6"
+        "autoclave6","glenestuche1","taller2","taller1","taller3","chivas","anchetasyotas","cubo1","cubo2","cubo3","ancheta1","ancheta2",
+        "anchetas6","paloalto1"
 
         ]
     }
@@ -132,7 +133,9 @@ export const useWorkStore = defineStore("Work", ()=>{
       {name:"Varios",
        description:"Me ajusto a las necesidades de cada cliente, comprendiendo que cada marca tiene su propia identidad, contexto y universo.",
        rute:"/varios",
-       name_img:["3d1.webp","3d2.webp","3d3.webp","3d4.webp","3d5.webp"] 
+       name_img:["3d1.webp","3d2.webp","3d3.webp","3d4.webp","3d5.webp",
+
+       ] 
       },
     ]
   

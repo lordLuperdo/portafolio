@@ -1,6 +1,7 @@
 <script setup>
 import logo from "~/storage/imgs/logo.webp"
 import flecha from "~/storage/imgs/flecha.webp"
+import doc from "~/storage/docs/andresconeo2026.pdf"
 
 const route = useRoute()
 const router = useRouter()
@@ -31,7 +32,7 @@ const scrollToS = () => {
         <div class="">
             <ul class="flex md:gap-9 justify-center gap-7 mt-5 md:mt-0 md:text-lg font-texto">
                 <li class="text-white">
-                     <NuxtLink to="/">Yo</NuxtLink>
+                     <a :href="doc" download>Yo</a>
                     </li>
                 <li class="text-white">
                      <button @click="scrollToS">Trabajos</button>
