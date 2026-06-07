@@ -20,15 +20,6 @@ const {s_service} = useWorkStore()
 
 
 
-const scrollToS = () => {
-  const a = document.getElementById("services")
-  if (a) {
-    a.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    })
-  }
-}
 
 onMounted(() => {
   gsap.utils.toArray('.service-item').forEach((item) => {

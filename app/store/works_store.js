@@ -102,13 +102,13 @@ export const useWorkStore = defineStore("Work", ()=>{
         ppd:[
         "glen1","glen2","glen3","control1","autoclave1",
         "autoclave2","autoclave3","autoclave4","autoclave5",
-        "autoclave6","glenestuche1","taller2","taller1","taller3","chivas","anchetasyotas","cubo1","cubo2","cubo3","ancheta1","ancheta2",
-        "anchetas6","paloalto1"
+        "autoclave6","glenestuche1","taller2","taller1","taller3","santopecado2","santopecado1","chivas","anchetasyotas","cubo1","cubo2","cubo3","ancheta1","ancheta2",
+        "anchetas6","anchetas7","anchetas8","anchetas9","anchetas10","paloalto1"
 
         ]
     }
 
-    const extras_b = ["cattaleya","sanfelipe"]
+    const extras_b = ["branding7","branding2","branding3","branding4","branding5","branding6"]
 
     
 
