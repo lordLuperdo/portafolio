@@ -87,15 +87,15 @@ export const useWorkStore = defineStore("Work", ()=>{
             type:"App"
           },  
            
-          Star:{
-            Name:"Starbucks",
-            link:"https://www.figma.com/proto/QQ9FxV6aihC70SqkRm9wRB/Untitled?team_id=1149308093168862954&node-id=2-88&page-id=0%3A1&t=7kUV9XK1ifjMOF5t-1",
-            imgs:["starbuks","starbuks2","starbuks3"],
-            solucion:"",
-            reto:"",
-            tecnologias:["Figma"],
-            type:"Prototipo"
-          },  
+         // Star:{
+           // Name:"Starbucks",
+            //link:"https://www.figma.com/proto/QQ9FxV6aihC70SqkRm9wRB/Untitled?team_id=1149308093168862954&node-id=2-88&page-id=0%3A1&t=7kUV9XK1ifjMOF5t-1",
+           // imgs:["starbuks","starbuks2","starbuks3"],
+            //solucion:"",
+            //reto:"",
+           // tecnologias:["Figma"],
+            //type:"Prototipo"
+          //},  
           
           
         },
