@@ -1,7 +1,7 @@
 <script setup>
 import logo from "~/storage/imgs/logo.webp"
 import flecha from "~/storage/imgs/flecha.webp"
-import doc from "~/storage/docs/andresconeo2026.pdf"
+import doc from "~/storage/docs/Coneo_director_gráfico_2026.pdf"
 
 const route = useRoute()
 const router = useRouter()
